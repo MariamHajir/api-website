@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API-CREATION</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <h1 class="title">API 's here</h1>
+    <div class="container">
+        <div class="api">
+            <h1 class="apititle">API 1</h1>
+            <h2 class="divdetails">Input a string and API will check if this word is palindrome or not.</h2>
+            <label for="string" class="divdetails">Enter a string:</label><br/>
+            <input id="string_palindrome" name="string"/><br/>
+            <input type="submit" value="Check if palindrome" id="api3submit" class="submit"><br/>
+            <h2 id="api3result" class="divdetails frame_res"></h2>
+        </div>
+        <div class="api">
+            <h1 class="apititle">API 2</h1>
+            <h2 class="divdetails">Input 3 numbers, a, b and c, this API will calculate the following expression : <br/>a^3 + b*c - a/b.</h2>
+            <hr/>
+            <label for="first_number" class="divdetails">Enter a:</label>
+            <input type="number" id="first_number" name="first_number" class="input"/><br/>
+            <label for="second_number" class="divdetails">Enter b:</label>
+            <input type="number" id="second_number" name="second_number" class="input"/><br/>
+            <label for="third_number" class="divdetails">Enter c:</label>
+            <input type="number" id="third_number" name="third_number" class="input"/><br/>
+            <input type="submit" value="Calculate" id="api1submit" class="submit"><br/>
+            <h2 id="api1result" class="divdetails frame_res"></h2>
+        </div>
+
+        <div class="api">
+            <h1 class="apititle">API 3</h1>
+            <h2 class="divdetails">Input a password and API will check if its a stronf password or not.</h2>
+            <label for="string" class="divdetails">Enter a password:</label><br/>
+            <input id="string" name="string"/><br/>
+            <input type="submit" value="Check password" id="api2submit" class="submit"><br/>
+            <h2 id="api2result" class="divdetails frame_res"></h2>
+        </div>
+
+        <div class="api">
+            <h1 class="apititle">API 4</h1>
+            <h2 class="divdetails">Check how many days are left for Christmas.</h2>
+            <input id="password" type="password" name="string"/><br/>
+            <h2 id="api4result" class="divdetails frame_res"></h2>
+        </div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
