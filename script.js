@@ -4,7 +4,9 @@ let api3btn=document.getElementById("api3submit");    //variables used in third 
 let is_palindrome_result=document.getElementById("api3result");
 let string_palindrome=document.getElementById("string_palindrome");
 api3btn.addEventListener("click",isPalindrome);
+
 // function for palindrome
+
 async function isPalindrome(){
     let my_str=string_palindrome.value;
     if (my_str===''){
